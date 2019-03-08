@@ -1,9 +1,10 @@
 # CS543_ComputerGraphics_2018Fall_HW2
 Demo Video:https://www.youtube.com/watch?v=ONT4Rcs1jKg&feature=youtu.be
-
 In this project, I will load a mesh stored in the .ply file format, render it as a 3D wireframe model using Vertex Buffer Object and also add keyboard control that let us move the .ply file around.
 
+
 Behavior of program
+
 User hits 'W' (Draw your wireframe) at a suitable initial position from the viewer. 
 
 User hits 'N' (Draw next wireframe) Organize the PLY files in a list going from 1-43. Hitting N should load and draw the next wireframe model to the current one in your list of PLY files. You can hardcode filenames if you want. The PLY files may not all be of the same size. So to properly set up the viewing position using LookAt, you may have to calculate the bounding box of the mesh and then set your view distance to a suitable multiple of the bounding box
