@@ -5,7 +5,7 @@ In this project, I will load a mesh stored in the .ply file format, render it as
 
 
 
-Behavior of program
+Behavior of program:
 
 User hits 'W' (Draw your wireframe) at a suitable initial position from the viewer. 
 
